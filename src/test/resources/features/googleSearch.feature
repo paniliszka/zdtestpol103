@@ -17,3 +17,9 @@ Feature: Google search feature
       | Selenium     |
       | Macarena     |
 
+Scenario: No search phrase
+  Given Google page is open
+  When I click Accept all button
+  And I click Enter button
+  Then Search result is not presented
+

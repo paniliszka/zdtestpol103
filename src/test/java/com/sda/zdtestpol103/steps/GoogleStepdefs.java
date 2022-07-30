@@ -26,4 +26,14 @@ public class GoogleStepdefs {
     public void iCanSeeSearchResultsPage() {
         System.out.println("I can see results");
     }
+
+    @And("I click Enter button")
+    public void iClickEnterButton() {
+        System.out.println("I click Enter button");
+    }
+
+    @Then("Search result is not presented")
+    public void searchResultIsNotPresented() {
+        System.out.println("Search result is not there");
+    }
 }

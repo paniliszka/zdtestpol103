@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c2ddefb-2444-49c6-9132-057c94942ffa" name="Changes" comment="Scenario Outline">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/steps/GoogleStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/steps/GoogleStepdefs.java" afterDir="false" />
+    <list default="true" id="4c2ddefb-2444-49c6-9132-057c94942ffa" name="Changes" comment="Background">
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +176,28 @@
       <option name="project" value="LOCAL" />
       <updated>1659185851700</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Scenario no search">
+      <created>1659186303727</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659186303727</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Scenario no search">
+      <created>1659186310829</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659186310829</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Background">
+      <created>1659186531774</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659186531774</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +215,8 @@
     <MESSAGE value="Setup" />
     <MESSAGE value="Google Search" />
     <MESSAGE value="Scenario Outline" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scenario Outline" />
+    <MESSAGE value="Scenario no search" />
+    <MESSAGE value="Background" />
+    <option name="LAST_COMMIT_MESSAGE" value="Background" />
   </component>
 </project>

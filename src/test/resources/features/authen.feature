@@ -7,3 +7,10 @@ Feature: Authentication to e-commerce
     And I type in logon credentials "test user12@test.com"
     And I type in password "passwords"
     Then Logon is successful
+
+    Scenario: Unsuccessful logon
+      Given Home page is open
+      When I click on Sign In button
+      And I type logon credentials "test"
+      And I type in password "something"
+      Then Error message is presented

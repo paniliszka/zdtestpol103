@@ -31,4 +31,14 @@ public class authenStepdefs {
     public void iTypeInPassword(String password) {
         System.out.println("Password is " +password);
     }
+
+    @And("I type logon credentials {string}")
+    public void iTypeLogonCredentials(String wrongLogin) {
+        System.out.println("User is not an e-mail but " +wrongLogin);
+    }
+
+    @Then("Error message is presented")
+    public void errorMessageIsPresented() {
+        System.out.println("Well shit");
+    }
 }

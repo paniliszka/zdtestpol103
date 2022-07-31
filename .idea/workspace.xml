@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c2ddefb-2444-49c6-9132-057c94942ffa" name="Changes" comment="Drivers">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/pages/BasePage.java" afterDir="false" />
+    <list default="true" id="4c2ddefb-2444-49c6-9132-057c94942ffa" name="Changes" comment="Pages">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/pages/GooglePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/WebDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/steps/GoogleStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/steps/GoogleStepdefs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +35,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/pauja/OneDrive/Dokumenty/JAVA/zdtestpol103/src/test/java/com/sda/zdtestpol103/steps",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pauja/OneDrive/Dokumenty/JAVA/zdtestpol103/src/test/java/com/sda/zdtestpol103/steps&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Scenario: No search phrase" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -235,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659264448326</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Pages">
+      <created>1659268750851</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659268750851</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,6 +266,7 @@
     <MESSAGE value="Shop test" />
     <MESSAGE value="Shop test negative" />
     <MESSAGE value="Drivers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Drivers" />
+    <MESSAGE value="Pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pages" />
   </component>
 </project>

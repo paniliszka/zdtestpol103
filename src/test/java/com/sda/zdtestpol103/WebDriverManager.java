@@ -15,6 +15,7 @@ public class WebDriverManager {
     public static void startDriver() {
 switch (getBrowserName()){
     case "chrome":
+        System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
         DRIVER = new ChromeDriver();
         break;
     case "firefox":
@@ -24,7 +25,7 @@ switch (getBrowserName()){
         DRIVER = new SafariDriver();
         break;
     default:
-        throw new IllegalStateException("UNSUPPORTER BROWSER");
+        throw new IllegalStateException("UNSUPPORTED BROWSER");
 
 }
 DRIVER.manage().window().maximize();

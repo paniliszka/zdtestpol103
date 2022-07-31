@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.sql.Driver;
 import java.time.Duration;
 
 public class GooglePage extends BasePage {
@@ -20,6 +21,9 @@ public class GooglePage extends BasePage {
     WebElement searchField;
     @FindBy(how = How.ID, using = "rcnt")
     WebElement searchResults;
+    @FindBy(how = How.ID, using = "text")
+    WebElement acceptAll;
+
 
     public void openGooglePage() {
         driver.get(GOOGLE_URL);
@@ -27,16 +31,22 @@ public class GooglePage extends BasePage {
 
     public void clickAcceptAllButton() {
         agreeAllButton.click();
-
     }
 
     public void searchInGoogle(String searchPhrase) {
         searchField.sendKeys(searchPhrase);
-        searchField.sendKeys(Keys.ENTER);
-
+        pushEnter();
     }
 
     public void verifySearchResult() {
         new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOf(searchResults));
+    }
+
+    public void pushEnter() {
+        searchField.sendKeys(Keys.ENTER);
+    }
+
+    public void noResult() {
+        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.invisibilityOf(searchResults));
     }
 }

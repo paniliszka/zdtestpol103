@@ -8,6 +8,7 @@ import io.cucumber.java.en.When;
 
 public class GoogleStepdefs {
     GooglePage googlePage = new GooglePage();
+
     @Given("Google page is open")
     public void googlePageIsOpen() {
         googlePage.openGooglePage();
@@ -27,16 +28,18 @@ public class GoogleStepdefs {
 
     @Then("I can see search results page")
     public void iCanSeeSearchResultsPage() {
-        System.out.println("I can see results");
+        googlePage.verifySearchResult();
     }
 
     @And("I click Enter button")
     public void iClickEnterButton() {
-        System.out.println("I click Enter button");
+        googlePage.pushEnter();
     }
 
     @Then("Search result is not presented")
     public void searchResultIsNotPresented() {
-        System.out.println("Search result is not there");
+        googlePage.noResult();
     }
+
+
 }

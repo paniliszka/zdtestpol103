@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c2ddefb-2444-49c6-9132-057c94942ffa" name="Changes" comment="Pages">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/pages/GooglePage.java" afterDir="false" />
+    <list default="true" id="4c2ddefb-2444-49c6-9132-057c94942ffa" name="Changes" comment="GooglePages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/pages/GooglePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/pages/GooglePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/steps/GoogleStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sda/zdtestpol103/steps/GoogleStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,9 +143,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Search in Google" />
         <item itemvalue="Cucumber Java.Scenario: No search phrase" />
         <item itemvalue="Cucumber Java.Scenario: Search in Google with Scenario Outline" />
-        <item itemvalue="Cucumber Java.Scenario: Search in Google" />
         <item itemvalue="Cucumber Java.Scenario: This is scenario" />
       </list>
     </recent_temporary>
@@ -242,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659268750851</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="GooglePages">
+      <created>1659272181707</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659272181707</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,6 +275,7 @@
     <MESSAGE value="Shop test negative" />
     <MESSAGE value="Drivers" />
     <MESSAGE value="Pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pages" />
+    <MESSAGE value="GooglePages" />
+    <option name="LAST_COMMIT_MESSAGE" value="GooglePages" />
   </component>
 </project>
